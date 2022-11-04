@@ -49,17 +49,17 @@ with col3:
    
     
 # code for Prediction
-#medical_insurance_cost = ''
+medical_insurance_cost = ''
     
 # creating a button for Prediction
 #age,sex,bmi,children,smoker,region,charges
     
 if st.button('Diabetes Test Result'):
 	cost_prediction = Medical_insurance.predict([[age,sex,bmi,children,smoker,region]])
-        
+m = medical_insurance_cost+str(cost_prediction)
         
 #st.success(cost_prediction)
-st.success(str(cost_prediction))
+st.success(m)
 
 #********************************************************************************************************************************************************
 
