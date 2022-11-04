@@ -58,7 +58,7 @@ if st.button('Diabetes Test Result'):
 	cost_prediction = Medical_insurance.predict([[age,sex,bmi,children,smoker,region]])
         
         
-st.success('success)
+st.success('success')
 
 
 #********************************************************************************************************************************************************
