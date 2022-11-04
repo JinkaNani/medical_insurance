@@ -49,7 +49,7 @@ with col3:
    
     
 # code for Prediction
-medical_insurance_cost = ''
+#medical_insurance_cost = ''
     
 # creating a button for Prediction
 #age,sex,bmi,children,smoker,region,charges
