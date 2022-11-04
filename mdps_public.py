@@ -13,7 +13,7 @@ from streamlit_option_menu import option_menu
 # loading the saved models
 
 
-Insurance_model = pickle.load(open('Medical_insurance.sav', 'rb'))
+Insurance_model = pickle.load(open('C:\Users\naray\OneDrive - NATIONAL INSTITUTE OF INDUSTRIAL ENGINEERING\Desktop\Important\NITIE\Python\Youtube\Projects\AI&ML\Sidhardhan\Deployment\Insurance\Medical_insurance.sav', 'rb'))
 
 
 
