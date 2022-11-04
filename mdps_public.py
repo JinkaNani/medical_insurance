@@ -30,22 +30,22 @@ st.title('Diabetes Prediction using ML')
 col1, col2, col3 = st.columns(3)
     
 with col1:
-age = st.text_input('age')
+	age = st.text_input('age')
         
 with col2:
-sex = st.text_input('sex')
+	sex = st.text_input('sex')
     
 with col3:
-bmi = st.text_input('bmi')
+	bmi = st.text_input('bmi')
     
 with col1:
-children = st.text_input('children')
+	children = st.text_input('children')
     
 with col2:
-smoker = st.text_input('smoker')
+	smoker = st.text_input('smoker')
     
 with col3:
-region = st.text_input('region')
+	region = st.text_input('region')
    
     
 # code for Prediction
