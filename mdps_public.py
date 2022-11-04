@@ -59,7 +59,7 @@ if st.button('Diabetes Test Result'):
 m = medical_insurance_cost+str(cost_prediction)
         
 #st.success(cost_prediction)
-st.success(m)
+#st.success(m)
 
 #********************************************************************************************************************************************************
 
