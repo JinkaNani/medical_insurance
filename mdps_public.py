@@ -59,7 +59,7 @@ if st.button('Diabetes Test Result'):
         
         
 #st.success(cost_prediction)
-st.write(cost_prediction)
+st.success(str(cost_prediction))
 
 #********************************************************************************************************************************************************
 
